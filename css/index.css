@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.food-title {
+  width: 60%;
+}
+
+.card-active {
+  outline: 4px solid lightcoral;
+}
+
+.card-not-available {
+  color: #fff;
+  background-color: RGBA(108,117,125,1);
+}
